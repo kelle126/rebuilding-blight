@@ -1,0 +1,95 @@
+body {
+	background: #cfdee7;
+	background-image: url("country.jpg");
+	margin: 0;
+	font: 12px Lato, Open Sans, sans-serif;
+	margin: 0;
+	line-height: 20px;
+	padding-bottom: 30px;
+}
+
+div#all {
+	width: 1000px;
+	margin: 0 auto;    
+	background-color: #a1c9e6; 
+	
+}
+
+
+header {
+	padding-top:30px;
+	padding-bottom: 25px;
+	float:center;
+	height: 200px;
+	background-color: #ffffff;
+}
+
+.mySlides {display:none;}
+
+
+h4 {
+	
+	color: #312c32;
+}
+
+
+ul {
+	
+	padding:5px;
+}
+
+
+
+li.navig {
+	list-style-type: none;
+	width: 190px;
+	text-align: center;
+	list-style-type: none;
+	float: left;
+	padding:20px 2px 20px 2px;
+	
+}
+
+li.navig a {
+	color: #ffffff;
+	display: block;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #0B4068;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+li.navig a:hover {
+	color: #0B4068;
+	background-color: #feffff;
+}
+
+div#main {
+	float: left;
+	padding: 20px;
+}
+
+div#pictures {
+	background-color: #a1c9e6;
+	padding: 20px;
+	text-align: center;
+	letter-spacing: 60px;
+}
+
+span {
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+

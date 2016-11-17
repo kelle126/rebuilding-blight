@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>ReBuilding Blight</title>
+
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		
+	</head>
+	
+	
+	
+	<body>
+		<div id="all">
+			<header>
+				<center><img src="logo.png" width="850" height="200"></center>
+			</header>
+			<nav>
+				<ul>
+					<li class="navig"><a href="index.html">Home</a></li>
+					<li class="navig"><a href="problems.html">Problems</a></li>
+					<li class="navig"><a href="solutions.html">Solutions</a></li>
+					<li class="navig"><a href="faqs.html">FAQs</a></li>
+					<li class="navig"><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<div id="main">
+					
+			</div>
+				<section>		
+					<p><span>Urban Blight:</span> Abandoned and run down buildings or vacant lots that lead to the decay of the community surrounding it.
+					</p>
+					<br/>
+					<br/>
+				</section>
+				<center>
+
+				<div class="w3-content w3-section" style="max-width:500px">
+				  <img class="mySlides" src="photos/house.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/theater.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/los_tres.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/black_livingroom.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/falling_bookcase.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/house1.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/house2.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/house3.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/house4.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/inside_black.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/needle.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/porch_chair.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/color_packard.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/house5.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/big_house.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/3houses.jpg" style="width:100%">
+				</div>
+
+				<script>
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+				    var i;
+				    var x = document.getElementsByClassName("mySlides");
+				    for (i = 0; i < x.length; i++) {
+				       x[i].style.display = "none";
+				    }
+				    myIndex++;
+				    if (myIndex > x.length) {myIndex = 1}
+				    x[myIndex-1].style.display = "block";
+				    setTimeout(carousel, 3000); // Change image every 2 seconds
+				}
+				</script>
+				</center>
+				<br/>
+				<br/>
+			
+
+			</div>
+				
+		</div>	
+	</body>	
+		
+
+	
+	<footer>
+		<center><p>Copyright ® 2016 STA303</p></center>
+	</footer>
