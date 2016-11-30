@@ -28,14 +28,53 @@
 				<center>
 				<section>		
 				
-					<h2>Have Questions?</h2>
+					<h1>Have Questions?</h1>
 					<h3>Feel free to contact us!  There are four of us running the show so we should get back with you shortly!</h3>
 					<p><span>Facebook:</span><a href="https://www.facebook.com/rebuildingblight/">https://www.facebook.com/rebuildingblight/</a></p>
 
 					<p><span>Instagram:</span><a href="https://www.instagram.com/rebuildingblight/?hl=en">https://www.instagram.com/rebuildingblight/?hl=en</a></p>
-					</center>
+					
 					<br/>
 					<br/>
+
+				<div class="w3-content w3-section" style="max-width:500px">
+				  <img class="mySlides" src="photos/house.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/theater.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/los_tres.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/black_livingroom.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/falling_bookcase.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/house1.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/house2.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/house3.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/house4.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/inside_black.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/needle.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/porch_chair.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/color_packard.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/house5.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/big_house.jpg" style="width:100%">
+				  <img class="mySlides" src="photos/3houses.jpg" style="width:100%">
+				</div>
+
+				<script>
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+				    var i;
+				    var x = document.getElementsByClassName("mySlides");
+				    for (i = 0; i < x.length; i++) {
+				       x[i].style.display = "none";
+				    }
+				    myIndex++;
+				    if (myIndex > x.length) {myIndex = 1}
+				    x[myIndex-1].style.display = "block";
+				    setTimeout(carousel, 3000); // Change image every 2 seconds
+				}
+				</script>
+
+
+				</center>
 				</section>
 
 				<br/>
